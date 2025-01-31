@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 1.5;
+  font-weight: 400;
+  min-height: 100vh;
+  width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+p, span, div, input, button, label {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button,
+.action-button,
+.cta-button,
+.signup-button,
+.login-button,
+.challenge-button,
+.track-progress-btn,
+.create-challenge-btn,
+.join-challenge-btn,
+.update-profile-btn,
+.delete-account-btn,
+input[type="submit"] {
+  background: url('./assets/2.png') center/cover no-repeat !important;
+  border: 2px solid black !important;
+  color: white !important;
+  padding: 0.8rem 1.5rem !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8) !important;
+  position: relative !important;
+  overflow: hidden !important;
+  min-width: 120px !important;
+}
+
+button:hover,
+.action-button:hover,
+.cta-button:hover,
+.signup-button:hover,
+.login-button:hover,
+.challenge-button:hover,
+.track-progress-btn:hover,
+.create-challenge-btn:hover,
+.join-challenge-btn:hover,
+.update-profile-btn:hover,
+.delete-account-btn:hover,
+input[type="submit"]:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+  border-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+button:active,
+.action-button:active,
+.cta-button:active,
+.signup-button:active,
+.login-button:active,
+.challenge-button:active,
+.track-progress-btn:active,
+.create-challenge-btn:active,
+.join-challenge-btn:active,
+.update-profile-btn:active,
+.delete-account-btn:active,
+input[type="submit"]:active {
+  transform: translateY(0) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2) !important;
+}
+
+input {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+}
+
+/* a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */

@@ -1,0 +1,228 @@
+.challenge-container {
+  min-height: 100vh;
+  width: 100%;
+  background: url('../assets/1.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  padding: 100px 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.challenge-content {
+  flex: 1;
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.challenge-form-section {
+  flex: 1;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.friends-section {
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.friends-section h2 {
+  color: white;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-container input {
+  flex: 1;
+  padding: 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.search-container input:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.message {
+  text-align: center;
+  color: white;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.search-results {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.search-results h3 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.search-result-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
+  color: white;
+}
+
+.search-result-item button {
+  min-width: 100px;
+}
+
+.friends-list {
+  min-height: 200px;
+  margin-top: 1.5rem;
+}
+
+.friend-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  color: white;
+}
+
+.friend-email {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+}
+
+.no-friends {
+  text-align: center;
+}
+
+.add-friend-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.challenge-footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-share {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons i {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.fa-whatsapp:hover {
+  color: #25D366;
+}
+
+.fa-instagram:hover {
+  color: #E1306C;
+}
+
+.fa-linkedin:hover {
+  color: #0077B5;
+}
+
+.track-progress-btn {
+  padding: 0.8rem 1.5rem;
+  background: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.track-progress-btn:hover {
+  background: #b91c1c;
+}
+
+.create-challenge-btn,
+.join-challenge-btn {
+  min-width: 200px;
+  margin: 1rem;
+  display: inline-block;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  background: white;
+}
+
+.invite-button {
+  width: 100%;
+  padding: 1rem;
+  background: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.invite-button:hover {
+  background: #b91c1c;
+}
